@@ -29,7 +29,7 @@ h4 {
 .carru {
   height: 25em; }
 
-.carruColor {
+.carrColor {
   color: aliceblue;
   background-color: gray;
   opacity: 0.8;
@@ -158,8 +158,10 @@ div img .email {
 
 .scale {
   transition: all 1s; }
-  .scale .scale:hover {
-    transform: scale(1.25); }
+
+.scale:hover {
+  transform: scale(1.25);
+  z-index: 10; }
 
 @keyframes aparecer {
   0% {
