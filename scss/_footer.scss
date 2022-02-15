@@ -5,10 +5,11 @@
     font-size: 20px;
     background-image: map-get($estilos , colorPagina);
     height: 5em;
+    padding: 10px;
+    margin: 5px;
     .redes{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-
     }
 }

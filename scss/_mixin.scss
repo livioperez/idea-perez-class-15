@@ -5,5 +5,12 @@
         margin: 5px;
   }
 
+  @mixin colorTransporte {
+      color: darkred;
+      text-align: center;
+      border: solid 1px black;
+      padding: 10px;
+  }
+
 
   

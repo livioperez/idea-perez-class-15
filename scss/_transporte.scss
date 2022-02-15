@@ -10,10 +10,7 @@
 }
 
 .subte{
-    color: darkred;
-    text-align: center;
-    border: solid 1px black;
-    padding: 10px;
+    @include colorTransporte;
 }
 
 .input:focus{
