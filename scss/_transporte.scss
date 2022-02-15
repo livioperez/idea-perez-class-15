@@ -1,0 +1,22 @@
+@import "mixin";
+
+.trnsporteFoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .transporte{
+        @include transporte;
+    }
+}
+
+.subte{
+    color: darkred;
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.input:focus{
+    transform: scale(1.5, 1.5);
+    margin-left: 110px          ;
+  }
