@@ -62,10 +62,6 @@ h4 {
   margin: 20px;
   padding: 20px; }
 
-@media (max-width: 768px) {
-  .centrar {
-    margin-left: 30px; } }
-
 .trnsporteFoto {
   display: flex;
   flex-direction: column;
@@ -187,12 +183,17 @@ h4 {
   h1 {
     font-size: 6rem; } }
 
+@media (max-width: 768px) {
+  .logo {
+    width: 1px;
+    height: 1px; } }
+
 .logo {
   position: absolute;
   top: 20px;
   left: 15px;
-  width: 80px;
-  height: 80px;
+  width: 3rem;
+  height: 3rem;
   display: inline;
   transition: top 2s; }
   .logo .logo:hover {
