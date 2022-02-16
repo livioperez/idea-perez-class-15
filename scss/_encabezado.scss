@@ -5,13 +5,14 @@
     background-image: map-get($estilos , colorPagina );
 }
     h1{
-        height: 3em;
+        height: 2.8em;
         font-size:  map-get($estilos , tamaño-h1 );     
         font-family: 'Spline Sans', sans-serif;      
         color: map-get($estilos , color );
-        padding-top: 1em;
+        padding-top: 0.5em;
         text-shadow: 10px 10px 5px gray;
-        padding-left: 30px;
+        padding-left: 0.2rem;
+        
     }
     h4{
         display: flex;
